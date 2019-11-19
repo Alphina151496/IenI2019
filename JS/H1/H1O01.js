@@ -1,5 +1,5 @@
 function setup() {
-  canvas = createCanvas(1000,500);
+  canvas = createCanvas(1000,450);
   background('orange');
   canvas.parent('processing');
   noLoop();
@@ -9,8 +9,8 @@ function draw() {
   // groene cirkel zonder rand
   
   noStroke();
-  fill('green');
-  ellipse(300,200,400);
+  fill('grey');
+  ellipse(225,225,400);
   
   // witte rechthoek met rode rand
   
