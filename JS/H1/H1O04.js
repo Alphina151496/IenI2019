@@ -17,6 +17,10 @@ function draw() {
   rect(100,280,100,100);
   fill('gray');
   // VERVANG DEZE REGEL door een regel die het dak tekent
+  Stroke(grey);
+  StrokeWeight(5);
+  fill('grey');
+  triangle(100,280,150,180,200,280);
   // teken de deur
   noStroke();
   // PAS ONDERSTAANDE REGEL AAN zodat de deur op de juiste plaats staat
