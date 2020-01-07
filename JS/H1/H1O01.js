@@ -1,5 +1,5 @@
 function setup() {
-  canvas = createCanvas(1000,450);
+  canvas = createCanvas(450,450);
   background('grey');
   canvas.parent('processing');
   noLoop();
